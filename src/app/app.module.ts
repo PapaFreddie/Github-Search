@@ -5,13 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import { HomeLandingPageComponent } from './components/home-landing-page/home-landing-page.component';
-
+import { HomeLandingPageComponent } from './compononents/home-landing-page/home-landing-page.component';
+import { GithubComponent } from './components/github/github.component';
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeLandingPageComponent
+    HomeLandingPageComponent,
+    GithubComponent
   ],
   imports: [
     BrowserModule,

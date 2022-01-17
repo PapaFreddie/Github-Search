@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeLandingPageComponent } from './components/home-landing-page/home-landing-page.component';
-
+import { HomeLandingPageComponent } from './compononents/home-landing-page/home-landing-page.component';
 const routes: Routes = [
   {
     path: '',
@@ -10,7 +9,7 @@ const routes: Routes = [
   {
     path: 'search/: repository-search',
     component: HomeLandingPageComponent,
-  }
+  },
 ];
 
 @NgModule({
