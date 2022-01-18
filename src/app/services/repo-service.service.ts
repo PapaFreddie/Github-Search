@@ -1,14 +1,28 @@
 import { Injectable } from '@angular/core';
-import { GithubServiceService } from './github-service.service';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RepoServiceService {
-  [x: string]: any;
   API = 'https://github.com/settings/tokens';
   token = '?access_token=';
 
+  constructor(public http: HttpClient) { 
 
-  constructor(private service: GithubServiceService) { }
+  }
+
+
+getRepo(searchTerm: string): Observable<any>{
+  return this.http.get(this.API + searchTerm + '/repos' + this.token);
+
+
 }
+
+}
+
+
+
+
+ 
