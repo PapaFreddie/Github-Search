@@ -19,6 +19,9 @@ const routes: Routes = [
     path: 'repositories', component: RepoComponent
 
   },
+  {path: '', redirectTo:"./components/github/github.component", pathMatch: "full"
+},
+
 
 
 ];
