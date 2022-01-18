@@ -1,0 +1,20 @@
+
+.menu{
+    margin-left: 5%;
+}
+.menu1{
+    font-size: 250%;
+}
+.menuTexts{
+    font-size: 150%;
+}
+.bigText{
+    font-size: 300%;
+}
+.searchBox{
+    width: 20%;
+    margin: auto;
+}
+.background{
+    background-color: black;
+}

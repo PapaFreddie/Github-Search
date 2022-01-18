@@ -1,0 +1,23 @@
+<div class="mt-5">
+    <div class="menu-row">
+        <div class="col">
+            <p class="menu1">Github</p>
+        </div>
+        <div class="col">
+            <div class="row">
+                <a class="col-sm-4 menuTexts" routerLink="users" routerLinkActive='active'>Search Username</a>
+                <a class="col-sm-4 menuTexts" routerLink="repositories" routerLinkActive='active'>Search Repos</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <p class="bigText">Github Search</p>
+</div>
+<div class="text-center">
+    <form action="">
+        <input [(ngModel)]="username" name="search" type="search" class="form-control searchBox" placeholder="search">
+        <input (click)='getUserName()' type="submit" value="Search" class="btn btn-primary mt-3" >
+    </form>
+</div>

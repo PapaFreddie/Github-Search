@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GithubServiceService } from 'src/app/services/github-service.service';
+import { RepoServiceService } from 'src/app/services/repo-service.service';
 
 @Component({
   selector: 'app-github',
@@ -9,24 +11,22 @@ export class GithubComponent implements OnInit {
   username: any;
   gituser: any;
   gitRepos: any;
-  service: any;
-  fred: any;
 
   getUserName(){
-    this.service.getUserName(this.username).subscribe(details =>{
+    this.service.getUser(this.username).subscribe((details: any) =>{
       console.log(details);
       return this.gituser = details;
     });
   }
 
   getRepos(){
-    this.fred.getRepo(this.username).subscribe(details =>{
-      console.log(details);
-      return this.gitRepos = details;
-    });
+   this.fred['getRepo'](this.username).subscribe((details: any) =>{
+     console.log(details);
+     return this.gitRepos = details;
+   })
   }
 
-  constructor() { }
+  constructor(private service: GithubServiceService, private fred: RepoServiceService) { }
 
   ngOnInit(): void {
   }
