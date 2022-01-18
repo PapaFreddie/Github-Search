@@ -11,6 +11,6 @@ export class GithubServiceService {
 
   constructor(private http: HttpClient) { }
   getUser(user:any){
-    return this.http.get("https://api.github.com/users/" + user + "?access-tokens=" + environment).pipe(((response:any)=> response));
+    return this.http.get("https://github.com/settings/tokens" + user + "?access-tokens=" + environment).pipe(((response:any)=> response));
   }
 }

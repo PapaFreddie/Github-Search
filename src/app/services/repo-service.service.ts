@@ -6,7 +6,7 @@ import { GithubServiceService } from './github-service.service';
 })
 export class RepoServiceService {
   [x: string]: any;
-  API = 'https://api.github.com/users/';
+  API = 'https://github.com/settings/tokens';
   token = '?access_token=';
 
 
