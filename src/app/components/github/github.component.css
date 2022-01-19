@@ -1,7 +1,4 @@
 
-.menu-row{
-    margin-left: 5%;
-}
 .menu1{
     font-size: 250%;
 }
@@ -9,16 +6,16 @@
     font-size: 150%;
 }
 .bigText{
-    font-size: 300%;
+    font-size: 30%;
 }
 .searchBox{
     width: 15%;
     margin: auto;
-}
-.background{
-    background-color: black;
+    background: rgb(0, 255, 242);
+    margin-left: 5px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
 }
 
-.row{
-    justify-content: space-between;
-}
+
