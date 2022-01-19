@@ -1,5 +1,5 @@
 
-.menu{
+.menu-row{
     margin-left: 5%;
 }
 .menu1{
@@ -17,4 +17,8 @@
 }
 .background{
     background-color: black;
+}
+
+.row{
+    justify-content: space-between;
 }
