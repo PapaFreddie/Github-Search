@@ -1,4 +1,4 @@
-# GithubSearch
+# Github Search
 This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. It queries from github using Github API.
 #### By **Fred Papa**
 
