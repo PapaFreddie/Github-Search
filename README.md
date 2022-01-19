@@ -1,5 +1,5 @@
 # GithubSearch
-# This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. It queries from github using Github API.
+This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. It queries from github using Github API.
 #### By **Fred Papa**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
@@ -44,9 +44,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * [AngulerCLI]
 * Markdown
 
-
-## Known Bugs
-The App has not fully achieved the upvoting and downvoting fucntionality.
 
 ## Contact Information
 Email: fredpapah20@gmail.com
